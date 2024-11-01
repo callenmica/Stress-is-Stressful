@@ -6,6 +6,8 @@ interface Submission {
   id: number
   stress: string
   name: string
+  prayers: number      // Added to track number of prayers
+  hasReacted?: boolean // Added to track if user has reacted
 }
 
 export const dynamic = 'force-dynamic'
